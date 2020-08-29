@@ -1,0 +1,199 @@
+#Cat {
+	width: 84px;
+	height: 87px;
+	margin: 10px;
+}
+
+#catImage {
+	margin-left: -8px;
+	margin-top: -4px;
+}
+
+#header {
+	background-color: #225066;
+	display: block;
+}
+
+#Icon {
+	width: 125px;
+	height: 120px; 
+}
+
+#head1 {
+	font-weight: bolder;
+	color: #00ffae;
+	margin-left: 350px;
+	margin-right: 450px;
+}
+
+.wrapper {
+	background-color: #F4BABA;
+	min-height: 1300px;
+	max-height: 9000px;
+}
+
+#productInput {
+	position: relative;
+	margin-left: 25%;
+	top: 28px;
+	width: 500px;
+	height: 50px;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	color: #800040;
+	padding-bottom: 5px;
+}
+
+#bouton {
+	display: inline-block;
+	position: relative;
+	left: 22px;
+	top: 20px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#return {
+	display: inline-block;
+	position: relative;
+	left: 25px;
+	top: 20px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: green;
+}
+
+.Slider {
+	margin-top: 50px;
+}
+
+.listUl {
+	overflow: auto;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.elementList {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.deviceImg {
+	width: 200px;
+	height: 200px;
+}
+
+.deviceImg:hover {
+	opacity: 50%;
+}
+
+.deviceName {
+	text-align: center;
+}
+
+.sList {
+	list-style-type: none;
+	background-color: #fff;
+	position: relative;
+	top: 16px;
+	margin-left: 25%;
+	width: 500px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.element:hover {
+	opacity: 50%;
+}
+
+.productImg{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	bottom: 80px;
+}
+
+.productItem {
+	list-style-type: none;
+	box-shadow: 0 15px 30px 0 rgba(100,100,100,0.21),
+	0 5px 15px 0 rgba(0,0,0,0.08);
+	border-radius: 0.5rem;
+}
+
+.productList {
+	margin-top: 120px;
+}
+
+.productPrice {
+	position: relative;
+	left: 40%; 
+}
+
+/*-----------------------------------------*/
+
+
+#theCart {
+	position: fixed;
+	width: 400px;
+	height: 500px;
+	left: 70%;
+	top: 20%;
+	background-color: rgb(183,183,183);
+	border: solid 5px rgb(90,90,90);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.cartImg {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	bottom: 20px;
+	left: -140px;
+}
+
+.cartList {
+	list-style-type: none;
+}
+
+.cartPrice {
+	position: relative;
+	left: 30%;
+}
+
+.cartItem {
+	position: relative;
+	top: -16px;
+}
+
+.counter {
+	position: relative;
+	left: 12%;
+	bottom: 5px;
+	font-size: 20px;
+	display: inline;
+}
+
+.total {
+	position: relative;
+	left: 8%;
+}
+
+.filter {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.divFilter {
+	position: relative;
+	left: 30%;
+	top: 60px; 
+}
